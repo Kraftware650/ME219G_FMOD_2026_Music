@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{d0d39954-262c-4858-be93-f27b40651817}">
 		<property name="color">
-			<value>Cyan Light 2</value>
+			<value>Cyan Light 1</value>
 		</property>
 		<property name="name">
 			<value>Enemies</value>
