@@ -4,12 +4,13 @@
 		<property name="color">
 			<value>Purple</value>
 		</property>
-		<property name="volume">
-			<value>-3</value>
-		</property>
 		<property name="name">
 			<value>Music</value>
 		</property>
+		<relationship name="masters">
+			<destination>{5b4d618f-e20c-4996-8799-91f1d63f447a}</destination>
+			<destination>{30c7f931-17ac-49cf-95fa-f8b08ec0d33a}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{f5e0c081-632a-468d-8906-fddf498e790c}</destination>
 		</relationship>
