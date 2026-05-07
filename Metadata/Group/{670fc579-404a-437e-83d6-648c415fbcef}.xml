@@ -4,6 +4,9 @@
 		<property name="color">
 			<value>Purple</value>
 		</property>
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<property name="name">
 			<value>Music</value>
 		</property>
@@ -20,8 +23,26 @@
 	<object class="MixerBusEffectChain" id="{f5e0c081-632a-468d-8906-fddf498e790c}">
 		<relationship name="effects">
 			<destination>{a5091fc3-2de4-4663-87ef-af2619f20a99}</destination>
+			<destination>{d53dc80a-1b7d-4ce0-9f43-9518640ad426}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6241d0dc-0802-4141-b9e3-2ad1508a17ea}" />
 	<object class="MixerBusFader" id="{a5091fc3-2de4-4663-87ef-af2619f20a99}" />
+	<object class="CompressorEffect" id="{d53dc80a-1b7d-4ce0-9f43-9518640ad426}">
+		<property name="threshold">
+			<value>-34.5</value>
+		</property>
+		<property name="ratio">
+			<value>1.80000007</value>
+		</property>
+		<property name="attackTime">
+			<value>16</value>
+		</property>
+		<property name="releaseTime">
+			<value>74</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{411c95e3-5815-4dcf-9e62-6291f35fc08b}</destination>
+		</relationship>
+	</object>
 </objects>

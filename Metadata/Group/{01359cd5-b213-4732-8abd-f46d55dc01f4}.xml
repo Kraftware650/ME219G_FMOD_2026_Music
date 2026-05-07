@@ -4,6 +4,9 @@
 		<property name="color">
 			<value>Purple Light 1</value>
 		</property>
+		<property name="volume">
+			<value>-6</value>
+		</property>
 		<property name="name">
 			<value>Themes</value>
 		</property>
@@ -19,9 +22,15 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{f95c3ff7-c8bf-422d-9256-8a8dec3ef990}">
 		<relationship name="effects">
+			<destination>{289f9db7-a554-42be-a383-2532fb9263d5}</destination>
 			<destination>{1fc3c1b7-414e-4a0a-ba9f-f474b182ed89}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{73fbea3e-d6ea-469e-9d8d-b243ce9595f5}" />
+	<object class="MultibandEqEffect" id="{289f9db7-a554-42be-a383-2532fb9263d5}">
+		<property name="frequencyA">
+			<value>22000</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{1fc3c1b7-414e-4a0a-ba9f-f474b182ed89}" />
 </objects>
