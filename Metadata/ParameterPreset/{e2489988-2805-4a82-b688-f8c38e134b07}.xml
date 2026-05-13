@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{e2489988-2805-4a82-b688-f8c38e134b07}">
+		<property name="name">
+			<value>Jungle</value>
+		</property>
+		<relationship name="folder">
+			<destination>{7a40e815-31d9-4935-a5bb-bd29308a4523}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{de02c1fd-8a39-4e9f-b92a-62aecfcc0851}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{de02c1fd-8a39-4e9f-b92a-62aecfcc0851}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>
