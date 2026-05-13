@@ -23,7 +23,7 @@
 	<object class="MixerBusPanner" id="{cec8f155-4ea0-495e-ae61-6dce002f1a2f}" />
 	<object class="SFXReverbEffect" id="{a93f8fbe-17be-4448-9e8d-529c24e1c43b}">
 		<property name="decayTime">
-			<value>1400</value>
+			<value>1600</value>
 		</property>
 		<property name="earlyDelay">
 			<value>15</value>
@@ -38,7 +38,7 @@
 			<value>77.5</value>
 		</property>
 		<property name="density">
-			<value>73</value>
+			<value>74</value>
 		</property>
 		<property name="highCut">
 			<value>18600</value>
@@ -47,7 +47,7 @@
 			<value>55</value>
 		</property>
 		<property name="wetLevel">
-			<value>-15.5</value>
+			<value>-13.5</value>
 		</property>
 		<property name="dryLevel">
 			<value>-80</value>
