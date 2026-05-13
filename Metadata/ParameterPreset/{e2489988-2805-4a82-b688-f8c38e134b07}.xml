@@ -2,10 +2,10 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="ParameterPreset" id="{e2489988-2805-4a82-b688-f8c38e134b07}">
 		<property name="name">
-			<value>Jungle</value>
+			<value>JungleZone</value>
 		</property>
 		<relationship name="folder">
-			<destination>{7a40e815-31d9-4935-a5bb-bd29308a4523}</destination>
+			<destination>{bf011a70-5777-4d2b-a6ff-0ff1af039f7a}</destination>
 		</relationship>
 		<relationship name="parameter">
 			<destination>{de02c1fd-8a39-4e9f-b92a-62aecfcc0851}</destination>
@@ -20,6 +20,17 @@
 		</property>
 		<property name="initialValue">
 			<value>1</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{b31f861e-928b-4f6a-aae9-7238c2eb24c3}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{b31f861e-928b-4f6a-aae9-7238c2eb24c3}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.2199999988079071</value>
 		</property>
 	</object>
 </objects>

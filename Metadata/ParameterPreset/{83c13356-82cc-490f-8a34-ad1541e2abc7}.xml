@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{83c13356-82cc-490f-8a34-ad1541e2abc7}">
+		<property name="name">
+			<value>Zone3Progression</value>
+		</property>
+		<relationship name="folder">
+			<destination>{bf011a70-5777-4d2b-a6ff-0ff1af039f7a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{80ff09d2-a6ef-462a-a319-36fbfd7a1a2d}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{80ff09d2-a6ef-462a-a319-36fbfd7a1a2d}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>
