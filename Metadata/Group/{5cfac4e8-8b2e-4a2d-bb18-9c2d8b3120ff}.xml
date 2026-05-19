@@ -5,7 +5,7 @@
 			<value>Cyan Light 1</value>
 		</property>
 		<property name="volume">
-			<value>-12.5</value>
+			<value>-8</value>
 		</property>
 		<property name="name">
 			<value>Ambiance</value>
@@ -22,9 +22,18 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{b57898bc-8dd5-4c47-b391-2716ed3264e1}">
 		<relationship name="effects">
+			<destination>{f55afbce-a09f-4103-9393-c4672a5a1ddb}</destination>
 			<destination>{bac52236-0e08-4c05-8a83-cb293eff7757}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{3651a70b-ad00-4652-a070-b88353b0ebc6}" />
+	<object class="MixerSend" id="{f55afbce-a09f-4103-9393-c4672a5a1ddb}">
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{282f81cb-0fe0-4c08-915d-e3d6641210ec}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{bac52236-0e08-4c05-8a83-cb293eff7757}" />
 </objects>

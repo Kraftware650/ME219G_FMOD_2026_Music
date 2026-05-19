@@ -5,7 +5,7 @@
 			<value>Purple Light 1</value>
 		</property>
 		<property name="volume">
-			<value>-9</value>
+			<value>-5</value>
 		</property>
 		<property name="name">
 			<value>Themes</value>
@@ -23,6 +23,7 @@
 	<object class="MixerBusEffectChain" id="{f95c3ff7-c8bf-422d-9256-8a8dec3ef990}">
 		<relationship name="effects">
 			<destination>{289f9db7-a554-42be-a383-2532fb9263d5}</destination>
+			<destination>{86097491-7529-49dd-b19f-7dae15456987}</destination>
 			<destination>{1fc3c1b7-414e-4a0a-ba9f-f474b182ed89}</destination>
 		</relationship>
 	</object>
@@ -31,6 +32,14 @@
 		<property name="frequencyA">
 			<value>22000</value>
 		</property>
+	</object>
+	<object class="MixerSend" id="{86097491-7529-49dd-b19f-7dae15456987}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{282f81cb-0fe0-4c08-915d-e3d6641210ec}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{1fc3c1b7-414e-4a0a-ba9f-f474b182ed89}" />
 </objects>
