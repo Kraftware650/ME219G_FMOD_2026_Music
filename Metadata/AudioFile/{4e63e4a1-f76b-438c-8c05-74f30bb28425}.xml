@@ -2,10 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{4e63e4a1-f76b-438c-8c05-74f30bb28425}">
 		<property name="assetPath">
-			<value>Outdoor music zone 3 combat.wav</value>
-		</property>
-		<property name="isStreaming">
-			<value>true</value>
+			<value>Music/WIP/Outdoor music zone 3 combat.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

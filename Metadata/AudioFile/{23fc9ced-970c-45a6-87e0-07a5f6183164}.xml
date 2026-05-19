@@ -2,10 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{23fc9ced-970c-45a6-87e0-07a5f6183164}">
 		<property name="assetPath">
-			<value>Indoor music Wip.wav</value>
-		</property>
-		<property name="isStreaming">
-			<value>true</value>
+			<value>Music/WIP/Indoor music Wip.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

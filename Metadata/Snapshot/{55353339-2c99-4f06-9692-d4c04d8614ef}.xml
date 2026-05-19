@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Snapshot" id="{55353339-2c99-4f06-9692-d4c04d8614ef}">
 		<property name="name">
-			<value>MainMenuOptionsSnapshot</value>
+			<value>OptionsSnapshot</value>
 		</property>
 		<relationship name="mixer">
 			<destination>{cf6fa574-15a6-418b-a5cd-cd7d92939021}</destination>
@@ -30,7 +30,11 @@
 			<destination>{f60fab77-8e29-4232-bbd7-ae0c67ba663e}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{43403662-7676-4fb5-898b-35d330693922}" />
+	<object class="EventAutomatableProperties" id="{43403662-7676-4fb5-898b-35d330693922}">
+		<relationship name="modulators">
+			<destination>{d42ff7ff-174f-4d00-bac6-5296093f6536}</destination>
+		</relationship>
+	</object>
 	<object class="MarkerTrack" id="{7320573d-8321-4e5c-8c7a-1aecd87cec98}" />
 	<object class="Timeline" id="{12d74bf9-01c8-40d9-a02b-5f4b18ac1572}" />
 	<object class="SnapshotMasterTrack" id="{dc436094-d86d-49cf-bce0-d043f962d707}" />
@@ -61,7 +65,7 @@
 			<value>volume</value>
 		</property>
 		<property name="value">
-			<value>-14.5</value>
+			<value>-12.5</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{01359cd5-b213-4732-8abd-f46d55dc01f4}</destination>
@@ -87,5 +91,28 @@
 		<relationship name="mixerStrip">
 			<destination>{5cfac4e8-8b2e-4a2d-bb18-9c2d8b3120ff}</destination>
 		</relationship>
+	</object>
+	<object class="ADSRModulator" id="{d42ff7ff-174f-4d00-bac6-5296093f6536}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>snapshotIntensity</value>
+		</property>
+		<property name="attackTime">
+			<value>860</value>
+		</property>
+		<property name="attackShape">
+			<value>-0.15722914</value>
+		</property>
+		<property name="peakValue">
+			<value>100</value>
+		</property>
+		<property name="sustainValue">
+			<value>100</value>
+		</property>
+		<property name="releaseTime">
+			<value>500</value>
+		</property>
+		<property name="releaseShape">
+			<value>0.0771738589</value>
+		</property>
 	</object>
 </objects>
