@@ -21,13 +21,5 @@
 		<property name="initialValue">
 			<value>0</value>
 		</property>
-		<relationship name="modulators">
-			<destination>{fe0074ef-77c6-4062-a25d-9063751da61c}</destination>
-		</relationship>
-	</object>
-	<object class="SeekModulator" id="{fe0074ef-77c6-4062-a25d-9063751da61c}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>cursorPosition</value>
-		</property>
 	</object>
 </objects>
