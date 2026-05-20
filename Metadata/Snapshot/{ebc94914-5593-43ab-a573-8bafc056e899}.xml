@@ -30,6 +30,7 @@
 			<destination>{9fa72d3d-7024-4d8e-9cde-aaf8beb22d35}</destination>
 			<destination>{b8d811d0-566d-4af8-b58a-4ba7f6d35138}</destination>
 			<destination>{a9045d2a-7cf5-4495-8abb-bc132a6b9e60}</destination>
+			<destination>{d3c93b39-8247-4a7f-b21d-3e48a232adb6}</destination>
 		</relationship>
 		<relationship name="snapshotTracks">
 			<destination>{8ceaadde-851b-418e-b68d-1b8ffe269883}</destination>
@@ -152,6 +153,17 @@
 		</property>
 		<relationship name="automatableObject">
 			<destination>{c56d5861-44d5-4e1c-a1ea-d6e7bed0a77c}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotProperty" id="{d3c93b39-8247-4a7f-b21d-3e48a232adb6}">
+		<property name="propertyName">
+			<value>pitch</value>
+		</property>
+		<property name="value">
+			<value>-0.200000003</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
 		</relationship>
 	</object>
 	<object class="SnapshotTrack" id="{8ceaadde-851b-418e-b68d-1b8ffe269883}">
