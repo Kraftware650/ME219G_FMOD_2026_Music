@@ -27,6 +27,9 @@
 		</property>
 	</object>
 	<object class="LimiterEffect" id="{5546489b-ba52-4507-aac8-f836b7c2de69}">
+		<property name="boost">
+			<value>9</value>
+		</property>
 		<property name="ceiling">
 			<value>-5.20000029</value>
 		</property>

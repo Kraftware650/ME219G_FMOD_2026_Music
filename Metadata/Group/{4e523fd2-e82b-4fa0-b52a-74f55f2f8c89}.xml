@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{4e523fd2-e82b-4fa0-b52a-74f55f2f8c89}">
+		<property name="color">
+			<value>Purple Light 2</value>
+		</property>
+		<property name="volume">
+			<value>-20.5</value>
+		</property>
 		<property name="name">
 			<value>Boss</value>
 		</property>
