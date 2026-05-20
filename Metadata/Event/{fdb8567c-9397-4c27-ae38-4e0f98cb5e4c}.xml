@@ -67,7 +67,7 @@
 			<destination>{1c1abd90-ad5d-472a-9a58-ea5955bf496d}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{feb41eb1-a01b-42f5-92f6-d9298a6a061e}</destination>
+			<destination>{9043554d-1a84-44e5-95ca-a7749334c763}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{6bf04fad-4f3c-4e98-acb8-490ca89cc28a}" />
@@ -387,7 +387,7 @@
 	</object>
 	<object class="SnapshotModule" id="{2dd8a7ad-394e-4a06-b13d-c0063af9486b}">
 		<property name="length">
-			<value>1.1875</value>
+			<value>1.421831383415435</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{f2e4fd15-a3b1-46e5-ad08-6488ce8c3312}</destination>
@@ -714,12 +714,12 @@
 			<value>0</value>
 		</property>
 		<property name="curveShape">
-			<value>-0.181715816</value>
+			<value>0.0293429978</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{906dcdb4-616f-4f37-87f8-1a8b836f6923}">
 		<property name="position">
-			<value>0.28125</value>
+			<value>0.29582563628899838</value>
 		</property>
 		<property name="value">
 			<value>100</value>
@@ -727,18 +727,18 @@
 	</object>
 	<object class="AutomationPoint" id="{888927b3-5ee4-41cf-a5a8-91a9ece9e53a}">
 		<property name="position">
-			<value>0.59375</value>
+			<value>0.3125</value>
 		</property>
 		<property name="value">
 			<value>100</value>
 		</property>
 		<property name="curveShape">
-			<value>0.165679157</value>
+			<value>0.149889231</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{25e70f8f-5f34-46a9-80ba-9bdc82be423e}">
 		<property name="position">
-			<value>1.1875</value>
+			<value>1.421831383415435</value>
 		</property>
 		<property name="value">
 			<value>0</value>
