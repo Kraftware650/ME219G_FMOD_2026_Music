@@ -12,14 +12,19 @@
 		</relationship>
 	</object>
 	<object class="GameParameter" id="{80ff09d2-a6ef-462a-a319-36fbfd7a1a2d}">
-		<property name="parameterType">
-			<value>1</value>
-		</property>
-		<property name="maximum">
-			<value>2</value>
-		</property>
 		<property name="initialValue">
 			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{9d81c805-243e-42e1-ad08-0c8688b2f18e}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{9d81c805-243e-42e1-ad08-0c8688b2f18e}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.45999997854232788</value>
 		</property>
 	</object>
 </objects>
