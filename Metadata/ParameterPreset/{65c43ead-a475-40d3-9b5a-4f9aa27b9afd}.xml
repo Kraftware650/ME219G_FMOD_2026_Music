@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{65c43ead-a475-40d3-9b5a-4f9aa27b9afd}">
+		<property name="name">
+			<value>BossStun</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d608f08d-7485-40ed-95d8-3ef131912ca8}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{6bd1c899-f3ff-4a9b-ad3a-59741928b219}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{6bd1c899-f3ff-4a9b-ad3a-59741928b219}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>

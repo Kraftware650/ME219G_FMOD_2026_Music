@@ -2,10 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{839ff182-362a-49c9-a74c-ee6930b5057b}">
 		<property name="assetPath">
-			<value>indoor_music_Background_64_100bpm.wav</value>
-		</property>
-		<property name="isStreaming">
-			<value>true</value>
+			<value>Music/indoor_music_Background_64_100bpm.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
