@@ -160,7 +160,7 @@
 			<value>pitch</value>
 		</property>
 		<property name="value">
-			<value>-0.200000003</value>
+			<value>-0.600000024</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>

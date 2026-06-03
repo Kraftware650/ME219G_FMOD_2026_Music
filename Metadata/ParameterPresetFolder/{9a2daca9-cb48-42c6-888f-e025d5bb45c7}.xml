@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPresetFolder" id="{9a2daca9-cb48-42c6-888f-e025d5bb45c7}">
+		<property name="name">
+			<value>Stingers</value>
+		</property>
+		<relationship name="folder">
+			<destination>{7a40e815-31d9-4935-a5bb-bd29308a4523}</destination>
+		</relationship>
+	</object>
+</objects>

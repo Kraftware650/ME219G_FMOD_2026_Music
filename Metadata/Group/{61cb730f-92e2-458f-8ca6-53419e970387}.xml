@@ -5,7 +5,7 @@
 			<value>Green Light 2</value>
 		</property>
 		<property name="volume">
-			<value>-11.5</value>
+			<value>-8.5</value>
 		</property>
 		<property name="name">
 			<value>Regular Attack</value>
@@ -23,8 +23,10 @@
 	<object class="MixerBusEffectChain" id="{6ca17c14-90cf-4b64-9524-d35850e57e40}">
 		<relationship name="effects">
 			<destination>{2f28b42c-bfbe-41b4-a69b-2e99135f0407}</destination>
+			<destination>{692d1aac-6753-454b-9978-17e0a1ef2c2b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{fb0f5736-0e0b-4c8d-8c1c-0698c33c5968}" />
 	<object class="MixerBusFader" id="{2f28b42c-bfbe-41b4-a69b-2e99135f0407}" />
+	<object class="Sidechain" id="{692d1aac-6753-454b-9978-17e0a1ef2c2b}" />
 </objects>

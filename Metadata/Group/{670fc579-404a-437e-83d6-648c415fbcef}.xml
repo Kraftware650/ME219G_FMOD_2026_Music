@@ -45,6 +45,8 @@
 		<relationship name="sidechains">
 			<destination>{411c95e3-5815-4dcf-9e62-6291f35fc08b}</destination>
 			<destination>{62bed0bc-bac4-4bc7-8c6a-18c5936c4b11}</destination>
+			<destination>{692d1aac-6753-454b-9978-17e0a1ef2c2b}</destination>
+			<destination>{e607076b-074a-4754-8bdd-9558c2c0ba59}</destination>
 		</relationship>
 	</object>
 </objects>
