@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Snapshot" id="{bea695b7-cfe1-4126-b6ba-eb11f6158f80}">
+		<property name="note">
+			<value>Sends the SFX to the CaveReverb return track when the player enters a cave</value>
+		</property>
 		<property name="name">
 			<value>CaveReverbSnapshot</value>
 		</property>

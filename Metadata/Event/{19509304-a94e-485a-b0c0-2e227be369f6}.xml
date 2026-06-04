@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{19509304-a94e-485a-b0c0-2e227be369f6}">
+		<property name="note">
+			<value>Vertical event for music inside the cave in 6/4 100 bpm
+
+The four tracks are:
+Background - Harmony and percussion
+Regular theme - the musical theme associated with exploring the cave
+Statue theme - the musical theme associated with the ancient statues
+Combat - Music that plays during combat
+
+Paramaters are:
+StatueZone - to determine whether the player is close to a statue or not, if so the statue theme plays instead of the regular theme, 0-1
+Combat - checks whether the player is in combat
+
+</value>
+		</property>
 		<property name="name">
 			<value>Music_Cave</value>
 		</property>

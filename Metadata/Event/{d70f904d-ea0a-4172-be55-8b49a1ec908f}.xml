@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{d70f904d-ea0a-4172-be55-8b49a1ec908f}">
+		<property name="note">
+			<value>Event for the main menu music, in 4/4 115 bpm</value>
+		</property>
 		<property name="name">
 			<value>Music_Main_Menu</value>
 		</property>

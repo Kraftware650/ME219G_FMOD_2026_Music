@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{374f8e60-4c83-4864-9da1-ddb4818184b2}">
+		<property name="note">
+			<value>The even for the game over stinger, used when the player has lost all lives, 100 bpm
+Has two variations depending on if the player dies to the boss or not, since the boss music is in a slightly different key to the rest of the music
+
+Parameters are:
+GameOverLocation - to check whether the player is in the boss room, 0-1</value>
+		</property>
 		<property name="name">
 			<value>Stinger_Game_Over</value>
 		</property>
@@ -155,7 +162,7 @@
 			<value>21.599999999999994</value>
 		</property>
 		<property name="length">
-			<value>12.599999999999998</value>
+			<value>12.000000000000011</value>
 		</property>
 		<property name="timelockedOffset">
 			<value>21.449999999999999</value>
@@ -206,7 +213,7 @@
 			<value>21.599999999999994</value>
 		</property>
 		<property name="length">
-			<value>12</value>
+			<value>12.000000000000007</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{9e39c35d-0442-4326-93b3-b88b83eaa7e3}</destination>
@@ -248,7 +255,7 @@
 	</object>
 	<object class="CommandSound" id="{d99a5395-178e-4951-a765-b7891ddf72cb}">
 		<property name="start">
-			<value>34.199999999999989</value>
+			<value>33.600000000000001</value>
 		</property>
 		<property name="length">
 			<value>1.2000000000000006</value>
@@ -527,7 +534,7 @@
 	</object>
 	<object class="AutomationPoint" id="{00704d25-7565-4fc3-a12e-a600f6349a62}">
 		<property name="position">
-			<value>29.400000000000002</value>
+			<value>28.800000000000022</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -538,7 +545,7 @@
 	</object>
 	<object class="AutomationPoint" id="{0633028a-3d0f-4cf6-bdd1-7811cb07bb68}">
 		<property name="position">
-			<value>34.199999999999989</value>
+			<value>33.600000000000009</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -604,7 +611,7 @@
 	</object>
 	<object class="AutomationPoint" id="{d8715de3-01ed-49c1-bf7e-5d9e5d1784c4}">
 		<property name="position">
-			<value>28.5</value>
+			<value>28.500000000000007</value>
 		</property>
 		<property name="value">
 			<value>100</value>
@@ -615,7 +622,7 @@
 	</object>
 	<object class="AutomationPoint" id="{46aa1925-27b4-4147-ae6c-ea119f67cf32}">
 		<property name="position">
-			<value>33.599999999999994</value>
+			<value>33.600000000000001</value>
 		</property>
 		<property name="value">
 			<value>0</value>

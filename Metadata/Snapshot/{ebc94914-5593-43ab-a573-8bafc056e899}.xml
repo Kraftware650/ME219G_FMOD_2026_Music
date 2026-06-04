@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Snapshot" id="{ebc94914-5593-43ab-a573-8bafc056e899}">
+		<property name="note">
+			<value>Activates when the player takes damage, lowers the volume of some sound effects, puts a low pass filter on the master and slightly lowers the pitch</value>
+		</property>
 		<property name="name">
 			<value>DamageSnapshot</value>
 		</property>

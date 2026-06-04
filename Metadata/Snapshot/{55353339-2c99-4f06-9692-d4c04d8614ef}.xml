@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Snapshot" id="{55353339-2c99-4f06-9692-d4c04d8614ef}">
+		<property name="note">
+			<value>Activates when inside the options menu or when the game is paused. 
+
+Slightly lowers music volume and raises ambiance volume</value>
+		</property>
 		<property name="name">
 			<value>OptionsSnapshot</value>
 		</property>
@@ -30,12 +35,12 @@
 			<destination>{3ec66005-9976-4493-8865-3d9ad7dc0b21}</destination>
 			<destination>{31dfe926-68f4-485b-b3f3-21b6fcfe75cd}</destination>
 			<destination>{2228d259-2838-41e2-addc-5daf8840cf36}</destination>
-			<destination>{e020947f-418a-4efa-a538-8e721d7b816a}</destination>
+			<destination>{6745dafa-8009-41bf-88d7-707f28b350c8}</destination>
 		</relationship>
 		<relationship name="snapshotTracks">
 			<destination>{f2c69db7-6d17-46fb-b0ea-59a1510725aa}</destination>
 			<destination>{8c739923-55dd-4c15-b214-eb69875505dc}</destination>
-			<destination>{ef261238-9b57-4764-91c1-fc4c99c0205e}</destination>
+			<destination>{945d1219-5d57-46a3-a000-14eb76a8c753}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{43403662-7676-4fb5-898b-35d330693922}">
@@ -156,15 +161,15 @@
 			<destination>{5cfac4e8-8b2e-4a2d-bb18-9c2d8b3120ff}</destination>
 		</relationship>
 	</object>
-	<object class="SnapshotProperty" id="{e020947f-418a-4efa-a538-8e721d7b816a}">
+	<object class="SnapshotProperty" id="{6745dafa-8009-41bf-88d7-707f28b350c8}">
 		<property name="propertyName">
 			<value>volume</value>
 		</property>
 		<property name="value">
-			<value>-19</value>
+			<value>-4</value>
 		</property>
 		<relationship name="automatableObject">
-			<destination>{1c890626-8f9a-4836-886b-6daa8d27bf0c}</destination>
+			<destination>{670fc579-404a-437e-83d6-648c415fbcef}</destination>
 		</relationship>
 	</object>
 	<object class="SnapshotTrack" id="{f2c69db7-6d17-46fb-b0ea-59a1510725aa}">
@@ -177,9 +182,9 @@
 			<destination>{5cfac4e8-8b2e-4a2d-bb18-9c2d8b3120ff}</destination>
 		</relationship>
 	</object>
-	<object class="SnapshotTrack" id="{ef261238-9b57-4764-91c1-fc4c99c0205e}">
+	<object class="SnapshotTrack" id="{945d1219-5d57-46a3-a000-14eb76a8c753}">
 		<relationship name="mixerStrip">
-			<destination>{1c890626-8f9a-4836-886b-6daa8d27bf0c}</destination>
+			<destination>{670fc579-404a-437e-83d6-648c415fbcef}</destination>
 		</relationship>
 	</object>
 	<object class="ADSRModulator" id="{d42ff7ff-174f-4d00-bac6-5296093f6536}">

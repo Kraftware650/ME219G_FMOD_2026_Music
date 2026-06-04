@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Snapshot" id="{d0280eca-ec27-4981-8391-b682b5a02c27}">
+		<property name="note">
+			<value>Activates when the player is in combat, slightly raise</value>
+		</property>
 		<property name="name">
 			<value>CombatSnapshot</value>
 		</property>
@@ -48,7 +51,7 @@
 			<value>volume</value>
 		</property>
 		<property name="value">
-			<value>-24</value>
+			<value>-25</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{5cfac4e8-8b2e-4a2d-bb18-9c2d8b3120ff}</destination>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{7830eab0-dd69-4923-a11c-2d76d7b5e3a7}">
+		<property name="note">
+			<value>Horizontal vent for boss music</value>
+		</property>
 		<property name="name">
 			<value>Music_Boss</value>
 		</property>
@@ -405,7 +408,7 @@
 	</object>
 	<object class="SingleSound" id="{844cad9c-594c-45b4-b7b7-9e461cc52170}">
 		<property name="start">
-			<value>103.13314583333333</value>
+			<value>79.666020833333334</value>
 		</property>
 		<property name="length">
 			<value>33.673479166666667</value>
@@ -439,7 +442,7 @@
 	</object>
 	<object class="SingleSound" id="{e64c2da0-0373-4ee2-93ed-4fc7bb17f30d}">
 		<property name="start">
-			<value>141.90785416666668</value>
+			<value>114.67756249999999</value>
 		</property>
 		<property name="length">
 			<value>30.185145833333308</value>
@@ -506,7 +509,7 @@
 	</object>
 	<object class="SingleSound" id="{e99537a6-f165-4fd5-a824-0ee4d271cdf1}">
 		<property name="start">
-			<value>173.65822916666667</value>
+			<value>146.4279375000001</value>
 		</property>
 		<property name="length">
 			<value>29.217375000000004</value>
@@ -573,7 +576,7 @@
 	</object>
 	<object class="SingleSound" id="{9d89fa57-a9e3-4805-82bc-b5eb3c475c43}">
 		<property name="start">
-			<value>210</value>
+			<value>178.54139651487273</value>
 		</property>
 		<property name="length">
 			<value>13.916686734134913</value>
@@ -701,7 +704,7 @@
 	</object>
 	<object class="LoopRegion" id="{85c5ba6f-218b-4568-a05e-4b79da9e45c2}">
 		<property name="position">
-			<value>144.44084327797725</value>
+			<value>117.21055161131058</value>
 		</property>
 		<property name="length">
 			<value>25.04347916666665</value>
@@ -718,7 +721,7 @@
 	</object>
 	<object class="LoopRegion" id="{9577958d-4803-4859-998e-7f6c40e136a5}">
 		<property name="position">
-			<value>175.74518749999999</value>
+			<value>148.51489583333341</value>
 		</property>
 		<property name="length">
 			<value>25.04347916666665</value>
@@ -735,7 +738,7 @@
 	</object>
 	<object class="LoopRegion" id="{c55ceb20-cb28-4cbd-a809-56a6072c8e8c}">
 		<property name="position">
-			<value>105.62039073129252</value>
+			<value>82.153265731292521</value>
 		</property>
 		<property name="length">
 			<value>29.46427593537414</value>
@@ -752,7 +755,7 @@
 	</object>
 	<object class="NamedMarker" id="{512c7672-8b8c-427e-ad34-df59c9baeb84}">
 		<property name="position">
-			<value>210</value>
+			<value>178.54139651487273</value>
 		</property>
 		<property name="name">
 			<value>Boss defeated</value>
@@ -795,7 +798,7 @@
 	</object>
 	<object class="TransitionRegion" id="{323f1c92-aa00-4430-b8b5-cfcd4349114e}">
 		<property name="position">
-			<value>105.62039073129252</value>
+			<value>82.153265731292521</value>
 		</property>
 		<property name="length">
 			<value>29.464275935374154</value>
@@ -822,7 +825,7 @@
 	</object>
 	<object class="TransitionRegion" id="{6682ebfe-047f-4099-8bf4-def77cb1617f}">
 		<property name="position">
-			<value>105.62039073129252</value>
+			<value>82.153265731292521</value>
 		</property>
 		<property name="length">
 			<value>29.464275935374154</value>
@@ -846,7 +849,7 @@
 	</object>
 	<object class="TempoMarker" id="{a4bf8102-4d45-4097-8800-3b7a8ecf5351}">
 		<property name="position">
-			<value>103.13314583333333</value>
+			<value>79.666020833333334</value>
 		</property>
 		<property name="tempo">
 			<value>98</value>
@@ -860,7 +863,7 @@
 	</object>
 	<object class="TempoMarker" id="{73f34dee-0ef1-40f4-8f0f-28d0f50a2d69}">
 		<property name="position">
-			<value>142.35388494464391</value>
+			<value>115.12359327797724</value>
 		</property>
 		<property name="tempo">
 			<value>115</value>
@@ -874,7 +877,7 @@
 	</object>
 	<object class="TransitionRegion" id="{ae01503a-74ff-4b2f-b1a1-8162494c0325}">
 		<property name="position">
-			<value>105.62039073129252</value>
+			<value>82.153265731292521</value>
 		</property>
 		<property name="length">
 			<value>29.464275935374154</value>
@@ -901,7 +904,7 @@
 	</object>
 	<object class="NamedMarker" id="{8c622c0b-83ae-4853-b59b-dfd310e5a807}">
 		<property name="position">
-			<value>142.35387499999999</value>
+			<value>115.12358333333331</value>
 		</property>
 		<property name="name">
 			<value>Phase 2 start</value>
@@ -915,7 +918,7 @@
 	</object>
 	<object class="NamedMarker" id="{53ae3d2e-9943-4005-a755-e7323afc0733}">
 		<property name="position">
-			<value>173.65822916666667</value>
+			<value>146.4279375000001</value>
 		</property>
 		<property name="name">
 			<value>Phase 3 start</value>
@@ -929,7 +932,7 @@
 	</object>
 	<object class="TransitionRegion" id="{7a8174f9-cc01-4eae-bdf7-f841ae504c55}">
 		<property name="position">
-			<value>144.44084327797725</value>
+			<value>117.21055161131058</value>
 		</property>
 		<property name="length">
 			<value>25.043479166666657</value>
@@ -958,7 +961,7 @@
 	</object>
 	<object class="TransitionRegion" id="{c967d930-2921-4a2e-b9ab-664e36d2c9cc}">
 		<property name="position">
-			<value>175.74518929247</value>
+			<value>148.51489762580343</value>
 		</property>
 		<property name="length">
 			<value>25.043479166666657</value>
@@ -1948,7 +1951,7 @@
 	</object>
 	<object class="AutomationPoint" id="{3132ea15-3765-4a78-a0d5-7370f8e61541}">
 		<property name="position">
-			<value>218.00604166666668</value>
+			<value>186.54743818153941</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -1959,7 +1962,7 @@
 	</object>
 	<object class="AutomationPoint" id="{e941be15-f402-4bdd-9116-ae02659db302}">
 		<property name="position">
-			<value>223.91668673413491</value>
+			<value>192.45808324900764</value>
 		</property>
 		<property name="value">
 			<value>0</value>
